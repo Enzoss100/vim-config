@@ -22,4 +22,4 @@ set statusline=%f\ %m\ [%l,%c]\ [%p%%]
 filetype plugin indent on
 
 " Highlight the line where the cursor is
-set cursorline
+highlight CursorLine cterm=none ctermbg=darkgray guibg=#3c3c3c
