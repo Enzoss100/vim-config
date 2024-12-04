@@ -20,3 +20,6 @@ set statusline=%f\ %m\ [%l,%c]\ [%p%%]
 
 " Enable filetype detection for better syntax support
 filetype plugin indent on
+
+" Highlight the line where the cursor is
+set cursorline
