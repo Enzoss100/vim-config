@@ -21,5 +21,8 @@ set statusline=%f\ %m\ [%l,%c]\ [%p%%]
 " Enable filetype detection for better syntax support
 filetype plugin indent on
 
-" Highlight the line where the cursor is
-highlight CursorLine cterm=none ctermbg=darkgray guibg=#3c3c3c
+" Highlight cursor line underneath the cursor horizontally.
+set cursorline
+
+" Highlight cursor line underneath the cursor vertically.
+set cursorcolumn
