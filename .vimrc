@@ -21,9 +21,6 @@ set statusline=%f\ %m\ [%l,%c]\ [%p%%]
 " Enable filetype detection for better syntax support
 filetype plugin indent on
 
-" Highlight cursor line underneath the cursor horizontally.
-set cursorline
-
 " Disable compatibility with vi which can cause unexpected issues.
 set nocompatible
 
