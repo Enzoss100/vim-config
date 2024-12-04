@@ -10,4 +10,3 @@ This repository is meant to hold my personal vim config that I use for the termi
 - Tab Visual Spacing: 4
 - Menu Autocomplete: ON
 - Status Bar with Line and Column
-- Cursor Line Highlight: ON
