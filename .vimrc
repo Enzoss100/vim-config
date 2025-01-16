@@ -16,7 +16,7 @@ set completeopt=menu,menuone,noselect
 set laststatus=2
 set ruler
 set showcmd
-set statusline=%f\ %m\ [%l,%c]\ [%p%%]
+set statusline=%F\ %m\ [%l,%c]\ [%p%%]
 
 " Enable filetype detection for better syntax support
 filetype plugin indent on
@@ -26,3 +26,6 @@ set nocompatible
 
 " Enable type file detection. Vim will be able to try to detect the type of file in use.
 filetype on
+
+" Enable end of line
+set fixendofline
