@@ -30,6 +30,5 @@ filetype on
 " Enable end of line
 set fixendofline
 
-" Customize Status Line color
-highlight StatusLine guibg=Green guifg=Black
-
+" Added Vim Colorscheme
+colorscheme koehler
