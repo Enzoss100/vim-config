@@ -11,3 +11,4 @@ This repository is meant to hold my personal vim config that I use for the termi
 - Menu Autocomplete: ON
 - Status Bar with Line, Column, and Absolute File Path
 - End of Line: ON
+- Status Line Color: FG: Black, BG: Green
