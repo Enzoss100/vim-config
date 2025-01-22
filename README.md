@@ -12,3 +12,4 @@ This repository is meant to hold my personal vim config that I use for the termi
 - Status Bar with Line, Column, and Absolute File Path
 - End of Line: ON
 - Colorscheme: Koehler
+- Status Line Colors: bg = green, fg = black

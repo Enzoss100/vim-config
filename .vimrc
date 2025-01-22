@@ -32,3 +32,7 @@ set fixendofline
 
 " Added Vim Colorscheme
 colorscheme koehler
+
+" Adjusted statusline color
+highlight statusline ctermbg=green
+highlight statusline ctermfg=black
