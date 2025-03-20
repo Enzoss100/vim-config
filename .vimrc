@@ -44,7 +44,7 @@ if filereadable(expand("~/.vimrc.plug"))
 endif
 
 " Vim-Airline Theme set for status line
-let g:airline_theme='google_dark'
+let g:airline_theme='wombat'
 
 " Removed Mode at the bottom of the screen
 set noshowmode

@@ -18,6 +18,7 @@ This repository is meant to hold my personal vim config that I use for the termi
 - End of Line: ON
 - Colorscheme: Koehler
 - Mode Showing: OFF
+- Airline Theme: wombat
 
 ## Plugins
 - vim-fugitive
