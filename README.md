@@ -19,6 +19,7 @@ This repository is meant to hold my personal vim config that I use for the termi
 - End of Line: ON
 - Colorscheme: Koehler
 - Status Line Colors: bg = green, fg = black
+- Mode Showing: OFF
 
 ## Plugins
 - vim-fugitive
