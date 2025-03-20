@@ -2,7 +2,12 @@
 
 This repository is meant to hold my personal vim config that I use for the terminal
 
+## Pre-requisites
+- Git
+- Curl
+
 ## Config Contents
+- Plugin Manager: vim-plug
 - Relative Line Numbers: ON
 - Absolute Line Numbers: ON
 - Syntax Highlighting: ON
@@ -13,3 +18,8 @@ This repository is meant to hold my personal vim config that I use for the termi
 - End of Line: ON
 - Colorscheme: Koehler
 - Status Line Colors: bg = green, fg = black
+
+## Plugins
+- vim-fugitive
+- vim-airline
+- vim-airline-themes

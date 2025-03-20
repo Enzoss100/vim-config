@@ -13,10 +13,10 @@ set shiftwidth=4
 set completeopt=menu,menuone,noselect
 
 " Show a status bar with line/column numbers and unsaved file indicator
-set laststatus=2
-set ruler
-set showcmd
-set statusline=%F\ %m\ [%l,%c]\ [%p%%]
+" set laststatus=2
+" set ruler
+" set showcmd
+" set statusline=%F\ %m\ [%l,%c]\ [%p%%]
 
 " Enable filetype detection for better syntax support
 filetype plugin indent on
@@ -33,6 +33,15 @@ set fixendofline
 " Added Vim Colorscheme
 colorscheme koehler
 
-" Adjusted statusline color
-highlight statusline ctermbg=green
-highlight statusline ctermfg=black
+" Adjusted Status Line Color
+" highlight statusline ctermbg=green
+" highlight statusline ctermfg=black
+
+
+" Call .vimrc.plug file
+if filereadable(expand("~/.vimrc.plug"))
+	source ~/.vimrc.plug
+endif
+
+" Vim-Airline Theme set for status line
+let g:airline_theme='google_dark'
