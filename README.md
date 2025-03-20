@@ -25,4 +25,3 @@ This repository is meant to hold my personal vim config that I use for the termi
 - vim-fugitive
 - vim-airline
 - vim-airline-themes
-- fern.vim
