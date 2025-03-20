@@ -45,3 +45,6 @@ endif
 
 " Vim-Airline Theme set for status line
 let g:airline_theme='google_dark'
+
+" Removed Mode at the bottom of the screen
+set noshowmode
