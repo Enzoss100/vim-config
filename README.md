@@ -5,6 +5,7 @@ This repository is meant to hold my personal vim config that I use for the termi
 ## Pre-requisites
 - Git
 - Curl
+- add a `.vim/` directory to your `$HOME` directory to store the plugins
 
 ## Config Contents
 - Plugin Manager: vim-plug
