@@ -2,8 +2,9 @@ call plug#begin('~/.vim/plugged')
 
 " Fugitive GitHub plugin
 Plug 'tpope/vim-fugitive'
+
+" Vim Airline and Themes plugins
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'lambdalisue/fern.vim'
 
 call plug#end()
