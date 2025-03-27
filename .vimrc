@@ -17,10 +17,10 @@ set shiftwidth=4
 set completeopt=menu,menuone,noselect
 
 " Show a status bar with line/column numbers and unsaved file indicator
-" set laststatus=2
-" set ruler
-" set showcmd
-" set statusline=%F\ %m\ [%l,%c]\ [%p%%]
+"" set laststatus=2
+"" set ruler
+"" set showcmd
+"" set statusline=%F\ %m\ [%l,%c]\ [%p%%]
 
 " Enable filetype detection for better syntax support
 filetype plugin indent on
@@ -38,8 +38,8 @@ set fixendofline
 colorscheme koehler
 
 " Adjusted Status Line Color
-" highlight statusline ctermbg=green
-" highlight statusline ctermfg=black
+"" highlight statusline ctermbg=green
+"" highlight statusline ctermfg=black
 
 
 " Call .vimrc.plug file
@@ -54,7 +54,5 @@ let g:airline_theme='wombat'
 set noshowmode
 
 " let <leader> + n to toggle Nerd Tree
-if exists(":NERDTreeToggle")
-	nnoremap <Leader>n :NERDTreeToggle<CR>
-endif
+nnoremap <Leader>n :NERDTreeToggle<CR>
 
