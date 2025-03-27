@@ -19,12 +19,17 @@ This repository is meant to hold my personal vim config that I use for the termi
 - Colorscheme: Koehler
 - Mode Showing: OFF
 - Airline Theme: wombat
+- Leader Key: `<space>`
 
 ## Plugins
 - vim-fugitive
 - vim-airline
 - vim-airline-themes
+- nerdtree
 
 ## Commented Sections
 - Status Line Colors: bg = green, fg = black
 - Status Bar with Line, Column, and Absolute File Path
+
+## Leader Key Bindings
+- n: Toggles NerdTree
