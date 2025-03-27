@@ -1,3 +1,7 @@
+" Change Leader Key to Spacebar
+let mapleader = " "
+let maplocalleader = " "
+
 " Enable relative number lines
 set relativenumber
 set number
@@ -48,9 +52,6 @@ let g:airline_theme='wombat'
 
 " Removed Mode at the bottom of the screen
 set noshowmode
-
-" Change Leader Key to Spacebar
-let mapleader = " "
 
 " let <leader> + n to toggle Nerd Tree
 if exists(":NERDTreeToggle")
