@@ -35,7 +35,7 @@ filetype on
 set fixendofline
 
 " Added Vim Colorscheme
-colorscheme koehler
+"" colorscheme koehler
 
 " Adjusted Status Line Color
 "" highlight statusline ctermbg=green
@@ -56,3 +56,5 @@ set noshowmode
 " let <leader> + n to toggle Nerd Tree
 nnoremap <Leader>n :NERDTreeToggle<CR>
 
+" Added Dracula Colorscheme
+colorscheme dracula
