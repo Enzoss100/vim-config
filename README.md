@@ -16,7 +16,7 @@ This repository is meant to hold my personal vim config that I use for the termi
 - Tab Visual Spacing: 4
 - Menu Autocomplete: ON
 - End of Line: ON
-- Colorscheme: Koehler
+- Colorscheme: Dracula
 - Mode Showing: OFF
 - Airline Theme: wombat
 - Leader Key: `<space>`
@@ -26,6 +26,7 @@ This repository is meant to hold my personal vim config that I use for the termi
 - vim-airline
 - vim-airline-themes
 - nerdtree
+- dracula
 
 ## Commented Sections
 - Status Line Colors: bg = green, fg = black
