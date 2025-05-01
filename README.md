@@ -31,6 +31,7 @@ This repository is meant to hold my personal vim config that I use for the termi
 ## Commented Sections
 - Status Line Colors: bg = green, fg = black
 - Status Bar with Line, Column, and Absolute File Path
+- colorscheme = koehler
 
 ## Leader Key Bindings
 - n: Toggles NerdTree
