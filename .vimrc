@@ -58,3 +58,10 @@ nnoremap <Leader>n :NERDTreeToggle<CR>
 
 " Added Dracula Colorscheme
 colorscheme dracula
+
+" This will enable code folding.
+" Use the marker method of folding.
+augroup filetype_vim
+    autocmd!
+    autocmd FileType vim setlocal foldmethod=marker
+augroup END
