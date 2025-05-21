@@ -20,6 +20,7 @@ This repository is meant to hold my personal vim config that I use for the termi
 - Mode Showing: OFF
 - Airline Theme: wombat
 - Leader Key: `<space>`
+- Folding using `{{{` `}}}`
 
 ## Plugins
 - vim-fugitive
